@@ -2,5 +2,5 @@ sort:
   sections: mixed
 
 nav:
-  - 홈: index.md
+  - 쿡북: index.md
   - "*"

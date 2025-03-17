@@ -92,6 +92,10 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
+  status:
+    deprecated: '제거 예정'
+    new: '새 문서'
+    draft: '초안'
   consent:
     title: 쿠키 설정 안내
     description: >- 
@@ -127,5 +131,6 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: >
+  이 문서와 콘텐츠는 <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a>에 따라 관리됩니다.<br />
   Copyright &copy; 2009 - 2025 Jung Hyun, Nam (rkttu), All Rights Reserved<br />
   <a href="#__consent">쿠키 설정 변경</a>
