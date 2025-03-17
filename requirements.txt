@@ -3,4 +3,5 @@ mkdocs-material[imaging]
 mkdocs-rss-plugin
 mkdocs-redirects
 mkdocs-glightbox
+mkdocs-awesome-nav
 pymdown-extensions

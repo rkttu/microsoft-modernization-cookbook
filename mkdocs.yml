@@ -9,17 +9,16 @@ theme:
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
   features:
-    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.path
     - navigation.prune
-    - navigation.indexes
     - navigation.top
     - navigation.header
     - navigation.footer
@@ -47,7 +46,7 @@ theme:
         icon: material/brightness-4
         name: '시스템 설정 따르기'
   font:
-    text: 'Gowun Dodum'
+    text: 'IBM Plex Sans KR'
   icon:
     repo: fontawesome/brands/github
 
@@ -56,12 +55,10 @@ plugins:
   - offline
   - glightbox
   - meta
+  - awesome-nav
   - social:
       cards_layout_options:
         font_family: Noto Sans KR
-
-nav:
-  - 홈: index.md
 
 hooks:
   - hooks/socialmedia.py
@@ -109,7 +106,7 @@ extra:
       analytics: 'Google Analytics'
   analytics:
     provider: google
-    property: G-2M995P6MMR
+    property: G-0G7DQDDY2X
     feedback:
       title: 이 콘텐츠가 도움이 되셨나요?
       ratings:

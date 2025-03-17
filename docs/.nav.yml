@@ -1,0 +1,6 @@
+sort:
+  sections: mixed
+
+nav:
+  - 홈: index.md
+  - "*"
