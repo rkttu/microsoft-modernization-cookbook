@@ -5,6 +5,7 @@ repo_url: https://github.com/rkttu/microsoft-modernization-cookbook
 
 theme:
   name: material
+  custom_dir: overrides
   language: ko
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
