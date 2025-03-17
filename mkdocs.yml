@@ -1,0 +1,135 @@
+site_name: Microsoft Modernization Cookbook
+site_description: A cookbook that introduces various methods to transform Microsoft's legacy workloads to cloud native.
+site_url: https://mmc.rkttu.com
+repo_url: https://github.com/rkttu/microsoft-modernization-cookbook
+
+theme:
+  name: material
+  language: ko
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.header
+    - navigation.footer
+    - toc.follow
+    - header.autohide
+    - announce.dismiss
+    - social
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: '밝게 표시'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: '어둡게 표시'
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: '시스템 설정 따르기'
+  font:
+    text: 'Gowun Dodum'
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - offline
+  - glightbox
+  - meta
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans KR
+
+nav:
+  - 홈: index.md
+
+hooks:
+  - hooks/socialmedia.py
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - md_in_html
+  - def_list
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  consent:
+    title: 쿠키 설정 안내
+    description: >- 
+      이 블로그는 쿠키를 사용하여 방문 기록과 선호도를 기억하고, 원하는 정보를 쉽게 찾을 수 있도록 돕습니다.
+      동의해 주시면 블로그를 더 좋은 곳으로 만드는 데 도움이 됩니다.
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics: 'Google Analytics'
+  analytics:
+    provider: google
+    property: G-2M995P6MMR
+    feedback:
+      title: 이 콘텐츠가 도움이 되셨나요?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 도움이 되었어요
+          data: 1
+          note: >-
+            피드백 남겨주셔서 고맙습니다!
+        - icon: material/emoticon-sad-outline
+          name: 아쉬워요
+          data: 0
+          note: >- 
+            피드백 남겨주셔서 고맙습니다!
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/rkttu
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: >
+  Copyright &copy; 2009 - 2025 Jung Hyun, Nam (rkttu), All Rights Reserved<br />
+  <a href="#__consent">쿠키 설정 변경</a>

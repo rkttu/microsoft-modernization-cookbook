@@ -1,0 +1,6 @@
+mkdocs-material
+mkdocs-material[imaging]
+mkdocs-rss-plugin
+mkdocs-redirects
+mkdocs-glightbox
+pymdown-extensions
