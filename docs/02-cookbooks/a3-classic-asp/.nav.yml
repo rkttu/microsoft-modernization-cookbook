@@ -1,0 +1,8 @@
+sort:
+  sections: mixed
+
+title: 클래식 ASP
+
+nav:
+  - '클래식 ASP': index.md
+  - "*"

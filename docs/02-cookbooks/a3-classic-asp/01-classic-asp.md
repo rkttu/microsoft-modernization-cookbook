@@ -8,5 +8,5 @@
 
 ## 참고 자료
 
-- [NT 서비스](../04-nt-services/index.md)
+- [NT 서비스](../a2-nt-services/index.md)
 - [클래식 ASP 웹 사이트를 Windows 컨테이너에서 실행하기](https://www.phillipsj.net/posts/running-asp-classic-in-a-windows-container/)

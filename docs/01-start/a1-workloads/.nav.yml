@@ -1,0 +1,8 @@
+sort:
+  sections: mixed
+
+title: 워크로드
+
+nav:
+  - 워크로드: index.md
+  - "*"
