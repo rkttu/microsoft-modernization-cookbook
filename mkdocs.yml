@@ -106,7 +106,7 @@ extra:
       analytics: 'Google Analytics'
   analytics:
     provider: google
-    property: G-0G7DQDDY2X
+    property: G-2M995P6MMR
     feedback:
       title: 이 콘텐츠가 도움이 되셨나요?
       ratings:
