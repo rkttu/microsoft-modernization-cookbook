@@ -22,6 +22,7 @@ theme:
     - navigation.top
     - navigation.header
     - navigation.footer
+    - navigation.indexes
     - toc.follow
     - header.autohide
     - announce.dismiss
